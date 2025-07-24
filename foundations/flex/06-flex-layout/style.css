@@ -33,10 +33,15 @@ input {
   padding: 16px;
 }
 
+.footer{
+  background-color: #eee;
+}
+
 ul {
   list-style: none;
   display: flex;
   padding: 0;
+  margin: 0;
   gap: 12px;
 }
 
@@ -52,5 +57,10 @@ ul {
 }
 
 button{
-  padding: 10px;
+  padding: 8px 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
 }
